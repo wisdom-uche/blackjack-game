@@ -1,0 +1,26 @@
+* {
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    background-image: url("/assets/img/background.png");
+    background-size: cover;
+    background-position: center center;
+    height: 85vh;
+}
+
+.container h1 {
+    color: goldenrod;
+}
+
+.container button {
+    color: #016f32 !important;
+    background-color: goldenrod !important;
+    border: none;
+}
+.container button:active {
+    transform: scale(0.95);
+}
