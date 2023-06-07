@@ -42,10 +42,10 @@ function renderGame() {
         cardsEl.textContent += cards[i] + " "
     }
     sumEl.textContent = `Sum : ${sum}`;
-    if (sum <= 20) {
+    if (sum <= 49) {
         message = "Do you want to draw a new card?";
-    } else if (sum === 21) {
-        message = "You've a Blackjack!";
+    } else if (sum === 50) {
+        message = "You've a Blackjack! 🤩$400";
         hasBlackJack = true;
     } else {
         message = "You are out of the game!";
